@@ -22,19 +22,19 @@
 #include <exception>
 
 namespace {
-void errorcb(int error, const char* desc)
-{
-  std::cerr << "GLFW error " << error << ": " << desc << std::endl;
-}
+    void errorcb(int error, const char* desc)
+    {
+      std::cerr << "GLFW error " << error << ": " << desc << std::endl;
+    }
 }
 
 Window::Window(std::pair<int, int> const& windowsize)
-  : m_window{nullptr}
-  , m_nvgContext{nullptr}
-  , m_windowSize{windowsize}
-  , m_framebufferSize{windowsize}
-  , m_title("Fensterchen")
-  , m_font_normal{0}
+        : m_window{nullptr}
+        , m_nvgContext{nullptr}
+        , m_windowSize{windowsize}
+        , m_framebufferSize{windowsize}
+        , m_title("Fensterchen")
+        , m_font_normal{0}
 {
   if (!glfwInit()) {
     throw "Could not init glfw";
@@ -73,13 +73,13 @@ Window::Window(std::pair<int, int> const& windowsize)
 #ifdef NANOVG_GLEW
   glewExperimental = GL_TRUE;
   if (glewInit() != GLEW_OK) {
-      throw "Could not init glew";
+    throw "Could not init glew";
   }
   glGetError();
 #endif
   m_nvgContext = nvgCreateGL3(NVG_ANTIALIAS | NVG_STENCIL_STROKES | NVG_DEBUG);
   if (m_nvgContext == nullptr) {
-      throw "Could not init nanovg";
+    throw "Could not init nanovg";
   }
 
   m_font_normal = nvgCreateFont(m_nvgContext, "sans", "Roboto-Regular.ttf");
@@ -156,9 +156,9 @@ std::pair<int, int> Window::window_size() const
 }
 
 void Window::draw_line(float startX, float startY,
-                float endX, float endY,
-                float r, float g, float b
-                ) const
+                       float endX, float endY,
+                       float r, float g, float b
+) const
 {
   nvgSave(m_nvgContext);
 

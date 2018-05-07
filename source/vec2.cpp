@@ -36,7 +36,7 @@ Vec2& Vec2::operator*=(float v){
 Vec2& Vec2::operator/=(float v){
     if (v == 0.0f)
     {
-        std::cout << "Division durch 0, unmoeglich";
+        std::cout << "divsion by 0 not possible";
     }
     else
     {
@@ -64,7 +64,7 @@ Vec2 operator*(Vec2 const& v, float s)
 Vec2 operator/(Vec2 const& v, float s)
 {
     if(s == 0){
-        std::cout <<"Division durch 0, unmoeglich";
+        std::cout <<"division by 0, impossible";
         return {v.x,v.y};
     }
     else

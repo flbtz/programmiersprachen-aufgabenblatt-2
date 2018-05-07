@@ -325,6 +325,13 @@
 		<Unit filename="/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/external/nanovg/src/nanovg.h">
 			<Option target="nanovg"/>
 		</Unit>
+		<Unit filename="/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/circle.cpp">
+			<Option target="tests"/>
+			<Option target="example"/>
+		</Unit>
+		<Unit filename="/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/circle.hpp">
+			<Option target="example"/>
+		</Unit>
 		<Unit filename="/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/example.cpp">
 			<Option target="example"/>
 		</Unit>
