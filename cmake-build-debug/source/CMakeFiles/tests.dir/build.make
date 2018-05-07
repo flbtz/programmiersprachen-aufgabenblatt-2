@@ -177,13 +177,63 @@ source/CMakeFiles/tests.dir/circle.cpp.o.provides: source/CMakeFiles/tests.dir/c
 source/CMakeFiles/tests.dir/circle.cpp.o.provides.build: source/CMakeFiles/tests.dir/circle.cpp.o
 
 
+source/CMakeFiles/tests.dir/window.cpp.o: source/CMakeFiles/tests.dir/flags.make
+source/CMakeFiles/tests.dir/window.cpp.o: ../source/window.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object source/CMakeFiles/tests.dir/window.cpp.o"
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/window.cpp.o -c /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/window.cpp
+
+source/CMakeFiles/tests.dir/window.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/window.cpp.i"
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/window.cpp > CMakeFiles/tests.dir/window.cpp.i
+
+source/CMakeFiles/tests.dir/window.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/window.cpp.s"
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/window.cpp -o CMakeFiles/tests.dir/window.cpp.s
+
+source/CMakeFiles/tests.dir/window.cpp.o.requires:
+
+.PHONY : source/CMakeFiles/tests.dir/window.cpp.o.requires
+
+source/CMakeFiles/tests.dir/window.cpp.o.provides: source/CMakeFiles/tests.dir/window.cpp.o.requires
+	$(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/window.cpp.o.provides.build
+.PHONY : source/CMakeFiles/tests.dir/window.cpp.o.provides
+
+source/CMakeFiles/tests.dir/window.cpp.o.provides.build: source/CMakeFiles/tests.dir/window.cpp.o
+
+
+source/CMakeFiles/tests.dir/rectangle.cpp.o: source/CMakeFiles/tests.dir/flags.make
+source/CMakeFiles/tests.dir/rectangle.cpp.o: ../source/rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object source/CMakeFiles/tests.dir/rectangle.cpp.o"
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tests.dir/rectangle.cpp.o -c /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/rectangle.cpp
+
+source/CMakeFiles/tests.dir/rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tests.dir/rectangle.cpp.i"
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/rectangle.cpp > CMakeFiles/tests.dir/rectangle.cpp.i
+
+source/CMakeFiles/tests.dir/rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tests.dir/rectangle.cpp.s"
+	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/rectangle.cpp -o CMakeFiles/tests.dir/rectangle.cpp.s
+
+source/CMakeFiles/tests.dir/rectangle.cpp.o.requires:
+
+.PHONY : source/CMakeFiles/tests.dir/rectangle.cpp.o.requires
+
+source/CMakeFiles/tests.dir/rectangle.cpp.o.provides: source/CMakeFiles/tests.dir/rectangle.cpp.o.requires
+	$(MAKE) -f source/CMakeFiles/tests.dir/build.make source/CMakeFiles/tests.dir/rectangle.cpp.o.provides.build
+.PHONY : source/CMakeFiles/tests.dir/rectangle.cpp.o.provides
+
+source/CMakeFiles/tests.dir/rectangle.cpp.o.provides.build: source/CMakeFiles/tests.dir/rectangle.cpp.o
+
+
 # Object files for target tests
 tests_OBJECTS = \
 "CMakeFiles/tests.dir/glew.c.o" \
 "CMakeFiles/tests.dir/tests.cpp.o" \
 "CMakeFiles/tests.dir/vec2.cpp.o" \
 "CMakeFiles/tests.dir/mat2.cpp.o" \
-"CMakeFiles/tests.dir/circle.cpp.o"
+"CMakeFiles/tests.dir/circle.cpp.o" \
+"CMakeFiles/tests.dir/window.cpp.o" \
+"CMakeFiles/tests.dir/rectangle.cpp.o"
 
 # External object files for target tests
 tests_EXTERNAL_OBJECTS =
@@ -193,11 +243,13 @@ source/tests: source/CMakeFiles/tests.dir/tests.cpp.o
 source/tests: source/CMakeFiles/tests.dir/vec2.cpp.o
 source/tests: source/CMakeFiles/tests.dir/mat2.cpp.o
 source/tests: source/CMakeFiles/tests.dir/circle.cpp.o
+source/tests: source/CMakeFiles/tests.dir/window.cpp.o
+source/tests: source/CMakeFiles/tests.dir/rectangle.cpp.o
 source/tests: source/CMakeFiles/tests.dir/build.make
 source/tests: external/glfw-3.2.1/src/libglfw3.a
 source/tests: libnanovg.a
 source/tests: source/CMakeFiles/tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable tests"
 	cd /Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/cmake-build-debug/source && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -210,6 +262,8 @@ source/CMakeFiles/tests.dir/requires: source/CMakeFiles/tests.dir/tests.cpp.o.re
 source/CMakeFiles/tests.dir/requires: source/CMakeFiles/tests.dir/vec2.cpp.o.requires
 source/CMakeFiles/tests.dir/requires: source/CMakeFiles/tests.dir/mat2.cpp.o.requires
 source/CMakeFiles/tests.dir/requires: source/CMakeFiles/tests.dir/circle.cpp.o.requires
+source/CMakeFiles/tests.dir/requires: source/CMakeFiles/tests.dir/window.cpp.o.requires
+source/CMakeFiles/tests.dir/requires: source/CMakeFiles/tests.dir/rectangle.cpp.o.requires
 
 .PHONY : source/CMakeFiles/tests.dir/requires
 

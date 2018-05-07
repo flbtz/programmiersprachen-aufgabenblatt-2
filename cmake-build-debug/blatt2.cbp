@@ -330,6 +330,7 @@
 			<Option target="example"/>
 		</Unit>
 		<Unit filename="/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/circle.hpp">
+			<Option target="tests"/>
 			<Option target="example"/>
 		</Unit>
 		<Unit filename="/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/example.cpp">
@@ -344,6 +345,15 @@
 			<Option target="example"/>
 		</Unit>
 		<Unit filename="/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/mat2.hpp">
+			<Option target="tests"/>
+			<Option target="example"/>
+		</Unit>
+		<Unit filename="/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/rectangle.cpp">
+			<Option target="tests"/>
+			<Option target="example"/>
+		</Unit>
+		<Unit filename="/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/rectangle.hpp">
+			<Option target="tests"/>
 			<Option target="example"/>
 		</Unit>
 		<Unit filename="/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/tests.cpp">
@@ -357,9 +367,11 @@
 			<Option target="example"/>
 		</Unit>
 		<Unit filename="/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/window.cpp">
+			<Option target="tests"/>
 			<Option target="example"/>
 		</Unit>
 		<Unit filename="/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/window.hpp">
+			<Option target="tests"/>
 			<Option target="example"/>
 		</Unit>
 		<Unit filename="/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/CMakeLists.txt">

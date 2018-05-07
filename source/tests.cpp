@@ -4,6 +4,7 @@
 #include "mat2.hpp"
 #include "color.hpp"
 #include "circle.hpp"
+#include "rectangle.hpp"
 
 
 
@@ -248,6 +249,42 @@ TEST_CASE ("Test_case_2.8_circle", "[Task 2.8_circle]"){
     {
         REQUIRE(!c2.is_inside({1.0f,0.0f}));
         REQUIRE(c2.is_inside({3.0f,1.0f}));
+    }
+
+}
+
+TEST_CASE ("Test_case_2.8_rectangle", "[TasK_2.8_rectangle]")
+{
+    Rectangle r1{};
+    Rectangle r2{Vec2{2.0f,1.0f},Vec2{4.0f,5.0f}, Color{1.0f,0.0f,0.0f}};
+
+    SECTION("test_constr")
+    {
+        REQUIRE(r2.get_min().x == Approx(2.0f));
+        REQUIRE(r2.get_min().y == 1.0f);
+        REQUIRE(r2.get_max().x == 4.0f);
+        REQUIRE(r2.get_max().y == 5.0f);
+
+    }
+
+    SECTION("test_default_constr")
+    {
+        REQUIRE(r1.get_min().x == 0.0f);
+        REQUIRE(r1.get_min().y == 0.0f);
+        REQUIRE(r1.get_max().x == 0.0f);
+        REQUIRE(r1.get_max().y == 0.0f);
+
+    }
+
+    SECTION("test_umfang")
+    {
+        REQUIRE(r1.circumference() == 0.0f);
+        REQUIRE(r2.circumference() == 12.0f);
+    }
+
+    SECTION("test_is_inside"){
+        REQUIRE(r2.is_inside({3.0f,3.0f}));
+        REQUIRE(!r2.is_inside({10.0f,20.0f}));
     }
 
 }
