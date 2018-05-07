@@ -335,6 +335,13 @@
 		<Unit filename="/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/tests.cpp">
 			<Option target="tests"/>
 		</Unit>
+		<Unit filename="/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/vec2.cpp">
+			<Option target="tests"/>
+			<Option target="example"/>
+		</Unit>
+		<Unit filename="/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/vec2.hpp">
+			<Option target="example"/>
+		</Unit>
 		<Unit filename="/Users/Flo/Documents/Studium/Programmiersprachen/programmiersprachen-aufgabe-1/programmiersprachen-aufgabenblatt-2/source/window.cpp">
 			<Option target="example"/>
 		</Unit>
